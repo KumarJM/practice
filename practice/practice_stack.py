@@ -22,5 +22,4 @@ class PracticeStack(cdk.Stack):
             bucket_name="vijaytestbucket782021",
             versioned=True,
             encryption=_s3.BucketEncryption.KMS_MANAGED
-            
         )
